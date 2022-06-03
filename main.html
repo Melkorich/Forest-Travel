@@ -8,7 +8,7 @@
     <meta name="description" content="Туристический сайт о походах на дикой природе">
     <meta name="keywords"
         content="Туризм, походы, туры, горы, дикая природа, бесплатный отдых, экстримальные поездки, Форест Тревел">
-    <title>Форест Тревел - Туры и направления</title>
+    <title>Форест Тревел - главная страница</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,18 +25,18 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="bg-color">
+<body>
     <!--header-->
-    <header class="header__inner">
+    <header class="header">
         <div class="header__top">
             <div class="logo">ФорестТревел</div>
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="main.html">Главная</a>
+                        <a class="header__nav-link" href="#">Главная</a>
                     </li>
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="#">Туры и направления</a>
+                        <a class="header__nav-link" href="tours.html">Туры и направления</a>
                     </li>
                     <li class="header__nav-item">
                         <a class="header__nav-link" href="tracking.html">О компании</a>
@@ -50,75 +50,86 @@
                 </ul>
             </nav>
         </div>
+
+        <div class="header__content">
+            <h1 class="header__title">
+                Путешествие всегда хорошая идея
+            </h1>
+            <p>
+                Турпоходы по дикой природе
+            </p>
+        </div>
+
+        <a class="header__scroll" href="#">
+            cкролл вниз
+        </a>
     </header>
     <!-- //header-->
 
     <!--main-->
-    <main class="inner-page">
+    <main class="main">
         <div class="container">
-            <div class="tours-page__header">
-                <h1 class="main-header">Туры и направления</h1>
-            </div>
-
-            <!--cards-->
-            <div class="cards-wrapper">
-
-                <!--row-->
-                <div class="cards__row">
-                    <a class="card" href="#">
-                        <img src="./images/cards/1.jpg" alt="Бесплатные туры">
-                        <div class="card__title-wrapper">
-                            <h2 class="card__title">
-                                Бесплатные туры
-                            </h2>
-                        </div>
-                    </a>
-                    <a class="card" href="#">
-                        <img src="./images/cards/2.jpg" alt="Экстремальный отдых">
-                        <div class="card__title-wrapper card__title-wrapper--extrime">
-                            <h2 class="card__title">
-                                Экстремальный отдых
-                            </h2>
-                        </div>
+            <!--main row-->
+            <article class="main-row">
+                <div class="main-content">
+                    <div class="main-content__header">
+                        <h2 class="main-header">
+                            Популярные направления
+                        </h2>
+                    </div>
+                    <div class="main-content-text">
+                        <p>
+                            Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще
+                            разобраться, кто
+                            тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по Чуйскому тракту ,
+                            по
+                            <a href="#">Горному Алтаю</a>
+                            до самой Монголии. 962 км — полный маршрут
+                            <strong>Новосибирск—Новоалтайск—Бийск—Майма</strong>
+                            —государственная граница с Монголией.
+                        </p>
+                    </div>
+                    <a class="button" href="#">
+                        Подробнее
                     </a>
                 </div>
-
-                <!--row-->
-                <div class="cards__row">
-                    <div class="cards__column">
-                        <a class="card card--bigger" href="#">
-                            <img src="./images/cards/3.jpg" alt="Невероятные приключения">
-                            <div class="card__title-wrapper card__title-wrapper--adventure">
-                                <h2 class="card__title">
-                                    Невероятные приключения
-                                </h2>
-                            </div>
-                        </a>
-                        <a class="card card--bigger" href="#">
-                            <img src="./images/cards/5.jpg" alt="Трекинг походы">
-                            <div class="card__title-wrapper card__title-wrapper--tracking">
-                                <h2 class="card__title">
-                                    Трекинг походы
-                                </h2>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="cards__column">
-                        <a class="card card--long" href="#">
-                            <img src="./images/cards/4.jpg" alt="Экзотические джунгли">
-                            <div class="card__title-wrapper card__title-wrapper--jungle">
-                                <h2 class="card__title">
-                                    Экзотические джунгли
-                                </h2>
-                            </div>
-                        </a>
-                    </div>
+                <div class="main-img">
+                    <img src="./images/main-page/img1.jpg" alt="Популярные направления">
                 </div>
-            </div>
-            <!-- //cards-->
+            </article>
+            <!-- //main row-->
+
+            <!--main row-->
+            <article class="main-row main-row--reverse">
+                <div class="main-content">
+                    <div class="main-content__header">
+                        <h2 class="main-header">
+                            Впечатляющие маршруты
+                        </h2>
+                    </div>
+                    <div class="main-content-text">
+                        <p>
+                            Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road,
+                            которая
+                            сама по себе стоит визита в <a href="#">Австралию.</a> Полюбуетесь одной из главных
+                            достопримечательностей
+                            страны — скалами, которые до 1922 года были известны в народе как <b>«Хрюшка и поросята»</b>
+                            , а
+                            сегодня носят название «Двенадцать апостолов».
+                        </p>
+                    </div>
+                    <a class="button" href="#">
+                        Подробнее
+                    </a>
+                </div>
+                <div class="main-img">
+                    <img src="./images/main-page/img2.jpg" alt="Впечатляющие маршруты">
+                </div>
+            </article>
+            <!-- //main row-->
         </div>
     </main>
+    <!-- //main-->
 
     <!--footer-->
     <footer class="footer">
@@ -200,6 +211,7 @@
         </div>
     </footer>
     <!-- //footer-->
+
 </body>
 
 </html>
