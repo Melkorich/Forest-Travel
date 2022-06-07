@@ -3,6 +3,10 @@
         width: 900px;
     }
 
+    .inner-page {
+        padding: 60px 0 60px;
+    }
+
     .header {
         height: 591px;
     }
@@ -49,6 +53,7 @@
 
     .main-header {
         font-size: 50px;
+        line-height: 1;
     }
 
     .main-content-text {
@@ -77,12 +82,135 @@
     .footer-widget__title {
         margin-bottom: 20px;
     }
+
+    /*page tours*/
+
+    .tours-page__header {
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 420px;
+        height: 300px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 240px;
+    }
+
+    .card--bigger {
+        width: 495px;
+        height: 270px;
+    }
+
+    .card--bigger img {
+        height: 210px;
+    }
+
+    .card--long {
+        width: 345px;
+        height: 570px;
+    }
+
+    .card--long img {
+        height: 510px;
+    }
+
+    .card__title-wrapper {
+        height: 60px;
+        padding: 0 20px;
+    }
+
+    .card__title {
+        font-size: 24px;
+    }
+
+    /* tracking page*/
+
+    .inner-page.inner-page--tracking {
+        padding: 40px 0 60px;
+    }
+
+    .article-nav__list a {
+        font-size: 18px;
+    }
+
+    .article-content {
+        width: 570px;
+    }
+
+    .article-content h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .article-content p {
+        font-size: 18px;
+    }
+
+    .article-content img {
+        margin: 20px 0;
+        height: 233px;
+        object-fit: cover;
+    }
+
+    /*contacts*/
+
+    .inner-page .inner-page--contacts {
+        padding: 40px 0 60px;
+    }
+
+    .contacts-row {
+        flex-direction: column;
+    }
+
+    .contacts-info {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contacts-block+.contacts-block {
+        margin-top: 0px;
+    }
+
+    .contacts-block {
+        width: 420px;
+    }
+
+    .map iframe {
+        width: 420px;
+        height: 310px;
+    }
+
+    .contacts-block__title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .contacts-list li {
+        font-size: 18px;
+    }
+
+    .contacts-list li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .form {
+        width: 100%;
+    }
 }
 
 @media(max-width: 899px) {
     .container {
         width: 100%;
         max-width: 100%;
+    }
+
+    .inner-page {
+        padding: 40px 0 60px;
     }
 
     .header__content {
@@ -163,6 +291,126 @@
 
     .footer-widgets-wrapper>* {
         width: calc(50% - 15px);
+    }
+
+    /*page tours*/
+
+    .cards__row {
+        flex-direction: column;
+    }
+
+    .cards__row:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .cards__column>*+* {
+        margin-top: 0px;
+    }
+
+    .card img {
+        width: 100%;
+        object-fit: cover;
+        height: 240px;
+    }
+
+    .card--bigger {
+        width: 100%;
+        max-width: 100%;
+        height: 270px;
+    }
+
+    .card--bigger img {
+        width: 100%;
+        object-fit: cover;
+        height: 210px;
+    }
+
+    .card--long {
+        width: 100%;
+        max-width: 100%;
+        height: 270px;
+        margin-bottom: 0;
+    }
+
+    .card--long img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+    }
+
+    .card__title-wrapper {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    /*tracking*/
+
+    .article-page {
+        flex-direction: column-reverse;
+    }
+
+    .article-nav {
+        width: 100%;
+    }
+
+    .article-content p {
+        font-size: 16px;
+    }
+
+    .inner-page.inner-page--tracking {
+        padding: 20px 0 60px;
+    }
+
+    .article-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .article-content h1 {
+        font-size: 42px;
+    }
+
+    /*contacts*/
+
+    .inner-page .inner-page--contacts {
+        padding: 40px 0 40px;
+    }
+
+    .contacts-info {
+        flex-direction: column;
+    }
+
+    .contacts-block {
+        width: 100%;
+    }
+
+    .contacts-block+.contacts-block {
+        margin-top: 40px;
+    }
+
+    .map iframe {
+        width: 100%;
+        max-width: 100%;
+        height: 310px;
+    }
+
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form__group:last-of-type {
+        margin-bottom: 30px;
     }
 }
 
@@ -253,5 +501,123 @@
 
     .footer-widget__list li {
         margin-bottom: 10px;
+    }
+
+    /*tours page*/
+
+    .tours-page__header .main-header,
+    .contacts-header .main-header {
+        font-size: 28px;
+    }
+
+    .tours-page__header {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        height: 290px;
+        margin-bottom: 20px;
+    }
+
+    .card--bigger {
+        height: 260px;
+    }
+
+    .card--long {
+        height: 260px;
+    }
+
+    .card__title-wrapper {
+        height: 50px;
+    }
+
+    /*tracking page*/
+
+    .article-content img {
+        height: auto;
+    }
+
+    .article-nav__list a {
+        font-size: 16px;
+    }
+
+    .article-content h1 {
+        font-size: 28px;
+    }
+
+    /*contacts*/
+
+    .contacts-block__title {
+        font-size: 20px;
+    }
+
+    .contacts-block+.contacts-block {
+        margin-top: 30px;
+    }
+
+    .map iframe {
+        height: 157px;
+    }
+
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form__group:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .contacts-list li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .contacts-info {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    .form__title {
+        font-size: 24px;
+    }
+
+    .form__group-title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .form__group-row {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .form__group-row>.input+.input {
+        margin-left: 0px;
+    }
+
+    .form input {
+        margin-bottom: 10px;
+    }
+
+    .form__group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        margin-bottom: 10px;
+    }
+
+    .form__group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .form .button {
+        padding: 11px 35px;
     }
 }
