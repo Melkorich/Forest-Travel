@@ -4,7 +4,7 @@
     }
 
     .inner-page {
-        padding: 60px 0 60px;
+        padding: 40px 0 60px;
     }
 
     .header {
@@ -75,8 +75,16 @@
         display: none;
     }
 
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
     .footer-logo .logo {
         font-size: 30px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
     }
 
     .footer-widget__title {
@@ -210,7 +218,7 @@
     }
 
     .inner-page {
-        padding: 40px 0 60px;
+        padding: 40px 0 40px;
     }
 
     .header__content {
@@ -369,6 +377,7 @@
     }
 
     .article-content {
+        margin-bottom: 40px;
         width: 100%;
         max-width: 100%;
     }
@@ -484,6 +493,7 @@
 
     .footer-widget {
         margin-bottom: 40px;
+        padding-top: 0px;
     }
 
     .footer-copyright {
@@ -531,7 +541,23 @@
         height: 50px;
     }
 
+    .card__title {
+        font-size: 20px;
+    }
+
     /*tracking page*/
+
+    .inner-page.inner-page--tracking {
+        padding: 20px 0 40px;
+    }
+
+    .article-content {
+        margin-bottom: 30px;
+    }
+
+    .article-content a {
+        font-size: 16px;
+    }
 
     .article-content img {
         height: auto;
@@ -545,6 +571,16 @@
         font-size: 28px;
     }
 
+    .article-content h1,
+    .article-content h2,
+    .article-content h3 {
+        line-height: 1;
+    }
+
+    .article-content h4 {
+        max-width: 90%;
+    }
+
     /*contacts*/
 
     .contacts-block__title {
@@ -553,6 +589,10 @@
 
     .contacts-block+.contacts-block {
         margin-top: 30px;
+    }
+
+    .contacts-list li {
+        font-size: 16px;
     }
 
     .map iframe {
@@ -580,7 +620,7 @@
     }
 
     .form {
-        padding: 15px;
+        padding: 15px 15px 30px;
     }
 
     .form__title {
@@ -610,7 +650,19 @@
     }
 
     .form-label {
-        margin-bottom: 10px;
+        margin-bottom: 11px;
+    }
+
+    .form-label:last-child {
+        margin-bottom: 0;
+    }
+
+    .form__group--checkboxes .form-label {
+        margin-bottom: 20px;
+    }
+
+    .form__group--checkboxes .form-label:last-child {
+        margin-bottom: 0;
     }
 
     .form__group:last-of-type {

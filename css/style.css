@@ -293,6 +293,10 @@ body>* {
     font-size: 18px;
 }
 
+.footer-widget__text {
+    font-size: 18px;
+}
+
 /* ---------page tours---------------*/
 
 .tours-page__header {
