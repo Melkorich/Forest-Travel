@@ -1,0 +1,37 @@
+.hide {
+    display: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+body>* {
+    flex-shrink: 0;
+}
+
+.bg-color {
+    background-color: #F2F8F6;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.inner-page {
+    padding: 60px 0 100px;
+}
+
+.inner-page.inner-page--tracking {
+    padding: 71px 0 100px;
+}
+
+.main-header {
+    font-weight: bold;
+    font-size: 54px;
+    color: #31405B;
+}

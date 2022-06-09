@@ -1,0 +1,38 @@
+.ui {
+    padding: 40px;
+}
+
+.ui__header {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 54px;
+    color: #31405B;
+}
+
+.ui__subheader {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.6;
+    color: #31405B;
+}
+
+ul.ul__list {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.ui__item {
+    list-style-type: disc;
+    padding: 12px 0;
+}
+
+.ul__link {
+    font-size: 22px;
+    color: #31405B;
+    transition: color 0.2s linear;
+}
+
+.ul__link:hover {
+    color: #138ECE;
+}

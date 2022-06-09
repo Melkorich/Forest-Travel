@@ -1,0 +1,250 @@
+@media(max-width: 599px) {
+
+    .header__content {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .header__content p {
+        font-size: 18px;
+    }
+
+    /*main part*/
+    .main {
+        padding: 40px 0;
+    }
+
+    .main-header {
+        font-size: 34px;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+    }
+
+    .main-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+
+    .main-row:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    /*footer*/
+
+    .footer-row {
+        align-items: center;
+    }
+
+    .footer-widgets-wrapper {
+        margin-bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-widgets-wrapper>* {
+        width: 100%;
+    }
+
+    .footer-widget--services {
+        display: block;
+    }
+
+    .footer-widget+.footer-widget {
+        margin-left: 0px;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+        padding-top: 0px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+
+    .footer-widget__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget__list a {
+        font-size: 16px;
+    }
+
+    .footer-widget__list li {
+        margin-bottom: 10px;
+    }
+
+    /*tours page*/
+
+    .tours-page__header .main-header,
+    .contacts-header .main-header {
+        font-size: 28px;
+    }
+
+    .tours-page__header {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        height: 290px;
+        margin-bottom: 20px;
+    }
+
+    .card--bigger {
+        height: 260px;
+    }
+
+    .card--long {
+        height: 260px;
+    }
+
+    .card__title-wrapper {
+        height: 50px;
+    }
+
+    .card__title {
+        font-size: 20px;
+    }
+
+    /*tracking page*/
+
+    .inner-page.inner-page--tracking {
+        padding: 20px 0 40px;
+    }
+
+    .article-content {
+        margin-bottom: 30px;
+    }
+
+    .article-content a {
+        font-size: 16px;
+    }
+
+    .article-content img {
+        height: auto;
+    }
+
+    .article-nav__list a {
+        font-size: 16px;
+    }
+
+    .article-content h1 {
+        font-size: 28px;
+    }
+
+    .article-content h1,
+    .article-content h2,
+    .article-content h3 {
+        line-height: 1;
+    }
+
+    .article-content h4 {
+        max-width: 90%;
+    }
+
+    /*contacts*/
+
+    .contacts-block__title {
+        font-size: 20px;
+    }
+
+    .contacts-block+.contacts-block {
+        margin-top: 30px;
+    }
+
+    .contacts-list li {
+        font-size: 16px;
+    }
+
+    .map iframe {
+        height: 157px;
+    }
+
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form__group:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .contacts-list li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .contacts-info {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 15px 15px 30px;
+    }
+
+    .form__title {
+        font-size: 24px;
+    }
+
+    .form__group-title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .form__group-row {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .form__group-row>.input+.input {
+        margin-left: 0px;
+    }
+
+    .form input {
+        margin-bottom: 10px;
+    }
+
+    .form__group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        margin-bottom: 11px;
+    }
+
+    .form-label:last-child {
+        margin-bottom: 0;
+    }
+
+    .form__group--checkboxes .form-label {
+        margin-bottom: 20px;
+    }
+
+    .form__group--checkboxes .form-label:last-child {
+        margin-bottom: 0;
+    }
+
+    .form__group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .form .button {
+        padding: 11px 35px;
+    }
+}
