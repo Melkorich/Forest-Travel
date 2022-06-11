@@ -4,7 +4,7 @@
     }
 
     .inner-page {
-        padding: 40px 0 60px;
+        padding: 68px 0 60px;
     }
 
     .header {
@@ -30,6 +30,7 @@
     }
 
     .header__title {
+        margin-top: 0px;
         font-size: 52px;
     }
 
@@ -75,6 +76,10 @@
         display: none;
     }
 
+    .footer-copyright {
+        width: 198px;
+    }
+
     .footer-copyright p {
         font-size: 14px;
     }
@@ -84,17 +89,21 @@
     }
 
     .footer-logo {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .footer-widget__title {
         margin-bottom: 20px;
     }
 
+    .footer-widget--info {
+        width: 195px;
+    }
+
     /*page tours*/
 
     .tours-page__header {
-        margin-bottom: 40px;
+        margin-bottom: 47px;
     }
 
     .card {
@@ -137,7 +146,11 @@
     /* tracking page*/
 
     .inner-page.inner-page--tracking {
-        padding: 40px 0 60px;
+        padding: 50px 0 56px;
+    }
+
+    .article-nav {
+        width: 269px;
     }
 
     .article-nav__list a {
@@ -158,23 +171,27 @@
     }
 
     .article-content img {
-        margin: 20px 0;
+        margin: 30px 0;
         height: 233px;
         object-fit: cover;
     }
 
     /*contacts*/
 
-    .inner-page .inner-page--contacts {
-        padding: 40px 0 60px;
+    .inner-page.inner-page--contacts {
+        padding: 48px 0 60px;
     }
 
     .contacts-row {
         flex-direction: column;
     }
 
+    .contacts-header {
+        margin-bottom: 47px;
+    }
+
     .contacts-info {
-        margin-bottom: 40px;
+        margin-bottom: 27px;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -194,11 +211,12 @@
     }
 
     .contacts-block__title {
-        margin-bottom: 25px;
+        margin-bottom: 28px;
         font-size: 24px;
     }
 
     .contacts-list li {
+        margin-bottom: 20px;
         font-size: 18px;
     }
 
@@ -208,5 +226,9 @@
 
     .form {
         width: 100%;
+    }
+
+    .form__group {
+        margin-bottom: 20px;
     }
 }
